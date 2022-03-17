@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">lMusic</string>
+    <string-array name="choice_items">
+        <item>PIANO</item>
+        <item>GUITAR</item>
+        <item>VOICE</item>
+        <item>VIOLON</item>
+        <item>FLUTE</item>
+        <item>VIOLA</item>
+        <item>CELLO</item>
+        <item>DOUBLE BASS</item>
+        <item>OBOE</item>
+        <item>SAXOPHONE</item>
+        <item>THEORY</item>
+        <item>PERCUSSION</item>
+    </string-array>
+</resources>
+

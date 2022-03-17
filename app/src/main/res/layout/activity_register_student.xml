@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textStart"
+    tools:context=".RegisterActivityStudent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="419dp"
+            android:layout_height="263dp"
+            android:layout_marginEnd="3dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.818"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/login_register_photo" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="410dp"
+            android:layout_height="161dp"
+            android:layout_marginTop="156dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:srcCompat="@drawable/viewpager_bg" />
+
+        <ImageView
+            android:id="@+id/logoregister"
+            android:layout_width="143dp"
+            android:layout_height="117dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:srcCompat="@drawable/photo_logo" />
+
+        <android.widget.TextView
+            android:id="@+id/titleSingup"
+            android:layout_width="187dp"
+            android:layout_height="54dp"
+            android:text="SING UP"
+            android:textAlignment="center"
+            android:textColor="#1E223E"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.549"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.145" />
+
+        <EditText
+            android:id="@+id/register_confirmpassword"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="630dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="165dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="264dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/add_photo" />
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/register_email"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="510dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/register_passsword"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="570dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/register_phonenumber"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="750dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/register_birth"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="810dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Date of birth"
+            android:inputType="date"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.widget.Button
+            android:id="@+id/choice"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="870dp"
+            android:background="@drawable/edit_text_bg"
+            android:textAllCaps="false"
+            android:text="Instruments"
+            android:textAlignment="textStart"
+            android:textColor="#9A9A9A"
+            android:textSize="16sp"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/register_instruments"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="930dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColor="#1E223E"
+            android:textStyle="bold"
+            android:lines="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--  <EditText
+              android:id="@+id/language"
+              android:layout_width="312dp"
+              android:layout_height="47dp"
+              android:layout_marginTop="990dp"
+              android:background="@drawable/edit_text_bg"
+              android:ems="10"
+              android:hint="Language"
+              android:inputType="date"
+              android:paddingLeft="20dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"/>
+  -->
+
+        <android.widget.Button
+            android:id="@+id/singUp"
+            android:layout_width="299dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="1010dp"
+            android:background="@drawable/all_buttons_bg"
+            android:text="SING UP"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/register_address"
+            android:layout_width="312dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="690dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- <CheckBox
+             android:id="@+id/register_is_teacher"
+             android:layout_width="147dp"
+             android:layout_height="49dp"
+             android:layout_marginStart="48dp"
+             android:layout_marginTop="990dp"
+             android:background="@drawable/custom_checkbox"
+             android:button="@drawable/custom_checkbox"
+             android:paddingLeft="40dp"
+             android:text="STUDENT"
+             android:textColor="#9A9A9A"
+             android:textSize="16sp"
+             android:textStyle="normal"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <CheckBox
+             android:id="@+id/register_is_student"
+             android:layout_width="147dp"
+             android:layout_height="49dp"
+             android:layout_marginTop="990dp"
+             android:background="@drawable/custom_checkbox"
+             android:button="@drawable/custom_checkbox"
+             android:paddingLeft="40dp"
+             android:text="TEACHER"
+             android:textColor="#9A9A9A"
+             android:textSize="16sp"
+             android:textStyle="normal"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.81"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+ -->
+        <TextView
+            android:id="@+id/goToLogin"
+            android:layout_width="78dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="1110dp"
+            android:text="LOG IN"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.696"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/alreadyamember"
+            android:layout_width="159dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="1110dp"
+            android:text="Already a member?"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.357"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--
+       <ListView
+
+           android:id="@+id/viewinstruments"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="624dp"
+           android:layout_marginEnd="15dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.614"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/choice" />
+-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
